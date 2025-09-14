@@ -1,0 +1,40 @@
+/* style.css */
+
+/* 1. Color y sombra del header */
+header {
+  background-color: #1f2937; /* Gris oscuro */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* 2. botón principal  */
+section button {
+  background: linear-gradient(90deg, #facc15, #f59e0b);
+  border: 2px solid #f59e0b;
+  color: #111827;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+section button:hover {
+  background: #111827;
+  color: #facc15;
+  transform: scale(1.05);
+}
+
+/* 3. Títulos de secciones */
+h3 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  color: #111827;
+}
+
+/* 4. Bordes y esquinas redondeadas en los divs de la sección de características */
+section .grid div {
+  border: 2px solid #facc15;
+  border-radius: 0.5rem;      
+}
+
+/* 5. Campos del formulario */
+form input[type="email"] {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
